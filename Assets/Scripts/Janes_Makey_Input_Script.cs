@@ -34,7 +34,7 @@ public class Janes_Makey_Input_Script : MonoBehaviour
         {
             
             Debug.Log("Up Arrow Pressed");
-        }
+        }   
 
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
