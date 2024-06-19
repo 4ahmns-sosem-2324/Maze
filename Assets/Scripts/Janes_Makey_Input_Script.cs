@@ -29,23 +29,23 @@ public class Janes_Makey_Input_Script : MonoBehaviour
 
     void Update()
     {
-        // 100
-       // if (Input.GetKeyDown(KeyCode.UpArrow)) &!(Input.GetKeyDown(KeyCode.DownArrow)) & !(Input.GetKeyDown(KeyCode.Space));
+        
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             
-            Debug.Log("Up Arrow Pressed");
+            Debug.Log("Links");
         }   
 
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             
-            Debug.Log("Down Arrow Pressed");
+            Debug.Log("Mitte");
         }   
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             
-            Debug.Log("Space Key Pressed");   
+            Debug.Log("Rechts");   
         }
     }
 }
