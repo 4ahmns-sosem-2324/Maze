@@ -30,7 +30,7 @@ public class Janes_Makey_Input_Script : MonoBehaviour
     void Update()
     {
         // 100
-        if (Input.GetKeyDown(KeyCode.UpArrow)) & !(Input.GetKeyDown(KeyCode.DownArrow)) & !(Input.GetKeyDown(KeyCode.Space))
+       // if (Input.GetKeyDown(KeyCode.UpArrow)) &!(Input.GetKeyDown(KeyCode.DownArrow)) & !(Input.GetKeyDown(KeyCode.Space));
         {
             
             Debug.Log("Up Arrow Pressed");
