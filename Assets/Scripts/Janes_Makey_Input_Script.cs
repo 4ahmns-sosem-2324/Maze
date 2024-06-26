@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Janes_Makey_Input_Script : MonoBehaviour
 {
-    public bool code0 = false; //Disen dürfen und können wir nicht benutzten weil sonst kein Stromskreis zustande kommt.
+    public bool code0 = false; //Diesen dürfen und können wir nicht benutzten weil sonst kein Stromskreis zustande kommt.
 
     public bool code1 = false;
     public bool code2 = false;
@@ -34,9 +34,9 @@ public class Janes_Makey_Input_Script : MonoBehaviour
     {
         
         if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            firstDigitis1 = true;
-            //Debug.Log("Links/Up");
+        {  
+             firstDigitis1 = true;
+             //Debug.Log("Links/Up");
         }   
 
         if (Input.GetKeyDown(KeyCode.DownArrow))
